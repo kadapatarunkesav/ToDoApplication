@@ -138,6 +138,12 @@
                 <li>Simple and intuitive interface</li>
             </ul>
         </div>
+
+        <div class="button-group">
+            <button class="btn btn-primary" onclick="location.href='/todos'">Get Started</button>
+            <button class="btn btn-secondary" onclick="location.href='/learn-more'">Learn More</button>
+        </div>
+
         <p class="welcome-message">Welcome to your To Do Application. Start organizing your tasks today!</p>
     </div>
 </body>

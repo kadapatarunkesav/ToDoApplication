@@ -7,15 +7,6 @@ pipeline {
                 checkout scm
             }
         }
-        stage('Check Environment') {
-            steps {
-                sh '''
-                echo "DB_URL=$DB_URL"
-                echo "DB_USERNAME=$DB_USERNAME"
-                echo "SPRING_PROFILES_ACTIVE=$SPRING_PROFILES_ACTIVE"
-                '''
-            }
-        }
 
         stage('Build') {
             steps {

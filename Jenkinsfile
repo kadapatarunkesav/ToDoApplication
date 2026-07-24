@@ -38,6 +38,9 @@ pipeline {
                 ]) {
 
                     sh '''
+                    java -version
+                    javac -version
+                    mvn -version
                         mvn clean package
                     '''
                 }
